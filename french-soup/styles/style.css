@@ -1,9 +1,41 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+body {
+  background-color: white;
 }
-/*Import the font and set the default size*/
-html {
+
+.backgroundImage {
+  background-image: url("../images/soup.jpg");
+  height: 400px;
+  background-size: cover;
+  margin-bottom: 40px; 
+}
+.title {
+  color: white;
+  text-align: center;
+  padding-top: 150px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 300%;
 }
+
+.textStyle{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: 'Open Sans', sans-serif;
+  color: 202020;
+  
+}
+
+.subImages {
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+  max-width: 60%;
+}
+
+hr {
+  width: 82%;
+}
+
+.endPage {
+  padding-bottom: 50px;
+}
+
